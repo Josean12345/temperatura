@@ -1,0 +1,30 @@
+* {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+#entradaFarenheit, #salidaCelsius {
+    width : 100px; height : 20px;
+}
+
+.botonConvertirACelsius {
+background-color: rgb(255, 0, 0);
+border-radius: 10%;
+border-color: #fff;
+}
+
+.temperatura {
+    width: 400px;
+    height: 200px;
+border-color:rgb(0, 0, 0);
+border-style: solid;}
+
+
+.temperatura input[type="button"], 
+.temperatura p, 
+.temperatura input[type=""] {
+    display: inline-block; /* Hace que los elementos se muestren en línea */
+    vertical-align: middle; /* Alinea verticalmente los elementos */
+    margin-right: 100px; /* Añade un espacio a la derecha para separar los elementos */
+}
